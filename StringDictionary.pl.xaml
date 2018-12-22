@@ -16,9 +16,9 @@
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Uruchom program wraz ze startem systemu</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Otwórz folder dyskowy po jego poprawnym połączeniu</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Uruchom przegląrkę plików po podłączeniu dysku</system:String>
 
-	<system:String x:Key="Notice">Notice</system:String>
+	<system:String x:Key="Notice">Powiadomienie</system:String>
 	<system:String x:Key="AddDrive">Dodaj</system:String>
 	<system:String x:Key="AddDrive.Header">Nowy dysk</system:String>
 	<system:String x:Key="AddDrive.Storage">Typ</system:String>
@@ -43,20 +43,20 @@
 	<system:String x:Key="AddDrive.TransferMode">Tryb transferu</system:String>
 	<system:String x:Key="AddDrive.Encryption">Szyfrowanie</system:String>
 
-	<system:String x:Key="Vailidation.Volume">Wprowadź poprawne oznaczenie woliumu</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Ta nazwa już występuje</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">Oznaczenie woliumu nie może zawierać tych znaków:</system:String>
+	<system:String x:Key="Vailidation.Volume">Wprowadź poprawne oznaczenie woluminu</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Ta nazwa już istnieje</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">Oznaczenie woluminu nie może zawierać tych znaków:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">Nie używaj zarezerwowanych nazw:</system:String>
-	<system:String x:Key="Vailidation.Letter">Wybierz nieprzypisaną jeszcze literę dysku</system:String>
+	<system:String x:Key="Vailidation.Letter">Wybierz nieprzypisaną literę dysku</system:String>
 	<system:String x:Key="Vailidation.Address">Wprowadź nazwę serwera lub adres IP</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Wprowadź adres URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Zaznacz folder na twoim komputerze</system:String>
-	<system:String x:Key="Vailidation.Port">Wprowadź numer portu (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Wprowadź numer portu (0-65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Wprowadź nazwę użytkownika</system:String>
 	<system:String x:Key="Vailidation.Password">Wprowadź hasło</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">oznaczenie woliumu</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">oznaczenie woluminu</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">użytkownik</system:String>
@@ -96,32 +96,32 @@
 	<system:String x:Key="Message.SelectedPath">Zaznacz ścieżkę</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Zduplikowana ścieżka</system:String>
 
-	<system:String x:Key="Message.SureDelete">Jesteś pewny aby usunąc permanentnie? &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.SureDelete">Czy chcesz usunąć na stałe? &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Podłącz ponownie RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">Zrestartuj RaiDrive</system:String>
-	<system:String x:Key="Message.ServiceDown">Wciśnij przycisk OK, aby podłączyć RaiDrive ponownie.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Wciśnij przyciks OK, musisz uruchomić ponownie dysk aby osiągnąć efekt.</system:String>
+	<system:String x:Key="Message.ServiceDown">Wybierz &quot;OK&quot;, aby podłączyć RaiDrive ponownie.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Wybierz &quot;OK&quot;, musisz ponownie podłączyć dysk aby zastosować ustawienia.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive nie jest gotowy do startu. Musisz uruchomić ponownie system.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Sterownik urządzenia nie został zainstalowany. Musisz przeinstalować RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox wspiera Internet Explorer 10, 11. Zainstaluj rekomendowaną wersję Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Połączony przez RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">W tej wersji możesz podpiąć 8 dysków.</system:String>
-	<system:String x:Key="Message.License.Expired">Twoja licencja się zakończyła. Musisz pobrać nową wersję. Wciśnij OK, aby zatwierdzić.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive nie może zweryfikować twojej licencji.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Sterownik urządzenia nie został zainstalowany. Wymagana ponowna instalacja RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox wspiera Internet Explorer 10 i 11. Zainstaluj zalecaną wersję Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.Connect.By">Podłączony przez RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">W tej wersji możesz podłączyć 8 dysków.</system:String>
+	<system:String x:Key="Message.License.Expired">Twoja licencja wygasła. Musisz pobrać nową wersję. Wybierz &quot;OK&quot;, aby zatwierdzić.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive nie może zweryfikować Twojej licencji.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Nieznana pojemność</system:String>
 	<system:String x:Key="Message.CurrentVersion">Aktualna wersja {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">Folder z tymczasowymi plikami cache musi znajdować się na dysku lokalnym. Dyski sieciowe nie są wspierane..</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Folder cache musi znajdować się na dysku lokalnym. Dyski sieciowe nie są wspierane.</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autoryzacja lub uwierzytelnienie zakończyło się niepowiedzeniem. Chcesz spróbować ponownie?</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autoryzacja lub uwierzytelnienie zakończyło się niepowiedzeniem. Chcesz spróbować ponownie? (Jeżeli występuje cały czas, usuń i utwórz dysk ponownie.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">Limit pobierania został przekroczony. Ograniczenia pobierania są zasadami programu {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">Metoda połączenia do dysku została zmieniona. Musisz zalogować się ponownie.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Limit pobierania został przekroczony. Ograniczenia pobierania są zasadami {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Metoda podłączenia do dysku została zmieniona. Musisz zalogować się ponownie.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">Pamięć na pliki cache jest niewystarczająca. Zwolnij miejsce na dysku.</system:String>
 	<system:String x:Key="Message.ErrorInternet">Połączenie do zdalnego dysku jest niemożliwe. Sprawdź swoje połączenie internetowe i spróbuj ponownie.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">Musisz zmienić oznaczenie lub nazwę dysku.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Domena niezarządzana przez Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Twoje konto jest niezarządzane przez Active Directory. Skontaktuj się z administratem domeny lub zaloguj się na konto osobiste.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Twoje konto jest niezarządzane przez Active Directory. Skontaktuj się z administratorem domeny lub zaloguj się na konto osobiste.</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">Sprawdź adres.</system:String>
@@ -129,8 +129,8 @@
 	<system:String x:Key="WebExceptionStatus.SendFailure">Sprawdź ponownie protokół{0} i port{1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Sprawdź ponownie protokół{0} i port{1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Sprawdź czy ta ścieżka{0} jest poprawka lub nadane są odpowiednie uprawnienia.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">Uwierzytelnienie nie powiodło się. Sprawdź wprowadzone dane (password).</system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Sprawdź czy ta ścieżka{0} jest poprawna lub nadane są odpowiednie uprawnienia.</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Uwierzytelnienie nie powiodło się. Sprawdź wprowadzone hasło.</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">Sprawdź wprowadzony adres.</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">Sprawdź port{0}.</system:String>
@@ -139,11 +139,11 @@
 	<system:String x:Key="OtherResponseCode.3">Sprawdź ponownie protokół{0} i port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">POwód</system:String>
+	<system:String x:Key="Words.Reason">Powód</system:String>
 	<system:String x:Key="Words.Delegation.Stop">Delegacja została przerwana</system:String>
 	<system:String x:Key="Words.Drive">Dysk</system:String>
 	<system:String x:Key="Words.FreeSpace">Wolne miejsce</system:String>
-	<system:String x:Key="Words.Send.Opinion">Wyślij opcje</system:String>
+	<system:String x:Key="Words.Send.Opinion">Wyślij opinię</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Path">Ścieżka</system:String>
 	<system:String x:Key="Words.File">Plik</system:String>
@@ -156,21 +156,21 @@
 
 	<system:String x:Key="Help.Text">POMOC</system:String>
 	<system:String x:Key="Help.Add.Drive">RUSZAMY~</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive został zatrzymany..</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Wciśnij przycisk, RaiDrive włączy się ponownie.</system:String>
+	<system:String x:Key="Help.ServiceDown">RaiDrive został zatrzymany.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Naciśnij przycisk, RaiDrive włączy się ponownie.</system:String>
 	<system:String x:Key="Help.InternetDown">Twoje połączenie zostało przerwane. Sprawdź czy masz dostęp do internetu.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">Ponownie powtórzenie {0} second(s).</system:String>
 	<system:String x:Key="Help.License.ForBusiness">wprowadź klucz aktywacyjny</system:String>
 
 	<system:String x:Key="Upgrade">Aktualizuj!</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Świetnie! Używasz najnowszej wersji!</system:String>
-	<system:String x:Key="Upgrade.NewVersion">Dokonaj aktualizacji do wersji{0}</system:String>
-	<system:String x:Key="Upgrade.New">Możesz aktualizować program do nowej wersji</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Aktualizuj do wersji{0}</system:String>
+	<system:String x:Key="Upgrade.New">Możesz zaktualizować program do nowej wersji</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">Uruchom RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Sprawdź aktualizacji</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Sprawdź aktualizacje</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Wyjdź</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Jesteś pewny aby zakończyć połączenia dyskowe przed wyjściem?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Czy na pewno zakończyć połączenia przed wyjściem?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} wolne z {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">zajęte</system:String>
@@ -191,7 +191,7 @@
 	<system:String x:Key="Backup.BackupNOW">Utwórz kopie zapasową</system:String>
 	<system:String x:Key="Backup.NOW">Terz</system:String>
 	<system:String x:Key="Backup.Save">Zapisz</system:String>
-	<system:String x:Key="Backup.ClearLog">Wyczyść logi</system:String>
+	<system:String x:Key="Backup.ClearLog">Wyczyść dziennik</system:String>
 	<system:String x:Key="Backup.DestRootFolder">Folder zdalny</system:String>
 	<system:String x:Key="Backup.SourceFolders">Folder źródłowy</system:String>
 	<system:String x:Key="Backup.Progress">Stan</system:String>
